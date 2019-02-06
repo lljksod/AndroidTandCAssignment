@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/scrollView5">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detailsHeadTV"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/detail_header"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/enterNameBox"
+                 />
+
+            <EditText
+                android:id="@+id/enterNameBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:ems="10"
+                android:hint="@string/enterNameHint"
+                android:inputType="textPersonName"
+                app:layout_constraintTop_toBottomOf="@id/detailsHeadTV"
+                app:layout_constraintBottom_toTopOf="@+id/enterEmailBox"
+                />
+
+            <EditText
+                android:id="@+id/enterEmailBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="24dp"
+                android:ems="10"
+                android:hint="@string/enterEmailHint"
+                android:inputType="textEmailAddress"
+                app:layout_constraintTop_toBottomOf="@id/enterNameBox"
+                app:layout_constraintBottom_toTopOf="@+id/enterPassword"
+
+                 />
+
+            <EditText
+                android:id="@+id/enterPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:hint="@string/enterPasswordHint"
+                android:inputType="textPassword"
+                app:layout_constraintTop_toBottomOf="@id/enterEmailBox"
+                app:layout_constraintBottom_toTopOf="@+id/confirmPassword" />
+
+            <EditText
+                android:id="@+id/confirmPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:hint="@string/confirmPasswordHint"
+                android:inputType="textPassword"
+                app:layout_constraintTop_toBottomOf="@id/enterPassword"
+                app:layout_constraintBottom_toBottomOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="476dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintStart_toEndOf="@+id/scrollView4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

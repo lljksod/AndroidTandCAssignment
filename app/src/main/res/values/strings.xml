@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AndroidTandCAssignment</string>
+    <string name="detail_header">Please submit your details</string>
+    <string name="enterNameHint">Name</string>
+    <string name="enterEmailHint">Email</string>
+    <string name="enterPasswordHint">Password</string>
+    <string name="confirmPasswordHint">Confirm Password</string>
 </resources>
