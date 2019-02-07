@@ -5,4 +5,16 @@
     <string name="enterEmailHint">Email</string>
     <string name="enterPasswordHint">Password</string>
     <string name="confirmPasswordHint">Confirm Password</string>
+    <string name="tAndCHeadText">Terms and Conditions</string>
+    <string name="tAndCBodyText">   Unless otherwise stated, the services featured on this website
+        of any downloads, programs and text available through this site.
+        Redistribution of republication of any part of this site or its
+        content is prohibited, including such by framing or other similar
+        or any other means, without the express written consent of the
+        Company. The Company does not warrant that the service from this
+        site will be uninterrupted, timely or error free, although it is
+        provided to the best ability. By using this service you thereby
+        indemnify this Company, its employees, agents, and affiliates
+        against any loss or damage, in whatever manner, howsoever caused.
+    </string>
 </resources>
