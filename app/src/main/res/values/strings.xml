@@ -17,4 +17,6 @@
         indemnify this Company, its employees, agents, and affiliates
         against any loss or damage, in whatever manner, howsoever caused.
     </string>
+    <string name="checkText">I Agree</string>
+    <string name="buttonText">CAN\'T WAIT! SIGN ME UP!</string>
 </resources>
